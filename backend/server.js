@@ -7,7 +7,6 @@ const PORT = process.env.PORT || 4000;
 app.use(cors());
 app.use(express.json());
 
-// Endpoint4
 app.get("/api/health", (req, res) => {
   res.json({
     status: "ok",
@@ -16,8 +15,6 @@ app.get("/api/health", (req, res) => {
   });
 });
 
-// Endpoint 5.
-// TODO: reemplazar con los datos reales de cada integrante
 app.get("/api/info", (req, res) => {
   res.json({
     status: "ok",
