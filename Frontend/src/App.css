@@ -1,0 +1,42 @@
+.titulo {
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.health-section {
+  margin-bottom: 1.5rem;
+}
+
+.health-box {
+  padding: 1.25rem 1.5rem;
+  border-radius: 10px;
+  border-left: 6px solid #999;
+  background: #f4f4f4;
+}
+
+.health-box h4 {
+  margin-bottom: 0.4rem;
+}
+
+.health-box p {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.health-box.exito {
+  background: #e8f7ee;
+  border-left-color: #28a745;
+  color: #1b5e2f;
+}
+
+.health-box.error {
+  background: #fdecea;
+  border-left-color: #dc3545;
+  color: #7a1f27;
+}
+
+.health-box.pendiente {
+  background: #fff8e1;
+  border-left-color: #ffc107;
+  color: #7a5c00;
+}
